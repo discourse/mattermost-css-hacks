@@ -11,3 +11,7 @@
 .sidebar--left .nav-pills__container {
   height: calc(100% - 80px);
 }
+
+.textarea-wrapper .help__text {
+  display: none;
+}
