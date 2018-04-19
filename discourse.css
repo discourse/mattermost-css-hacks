@@ -7,3 +7,7 @@
 .form-control, .post p {
   font-size: 15px;
 }
+
+.sidebar--left .nav-pills__container {
+  height: calc(100% - 80px);
+}
