@@ -1,0 +1,8 @@
+{
+  "id": $id$,
+  "name": "Custom CSS",
+  "version": $VERSION$,
+  "webapp": {
+    "bundle_path": $BUNDLE_PATH$
+  }
+}
