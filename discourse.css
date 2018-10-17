@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 .post__content .status { display: none; }
-.sidebar--left .sidebar__switcher { display: none; }
 .app__body.font--open_sans {
   font-family: 'Lato', sans-serif;
 }
@@ -8,10 +7,3 @@
   font-size: 15px;
 }
 
-.sidebar--left .nav-pills__container {
-  height: calc(100% - 80px);
-}
-
-.textarea-wrapper .help__text {
-  display: none;
-}
