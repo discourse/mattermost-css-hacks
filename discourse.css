@@ -6,4 +6,6 @@
 .form-control, .post p {
   font-size: 15px;
 }
-
+.textarea-wrapper .help__text {
+  display: none;
+}
