@@ -14,6 +14,6 @@
 }
 
 /* hide message format help text below composer */
-.textarea-wrapper .help__text { 
+.textarea-wrapper .help__format-text, .textarea-wrapper .textbox-help-link { 
   display: none;
 }
