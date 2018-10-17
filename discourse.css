@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
-.post__content .status { display: none; }
-.app__body.font--open_sans {
+
+/* change font-family and increase size */
+.app__body.font--open_sans { 
   font-family: 'Lato', sans-serif;
 }
-.form-control, .post p {
+.form-control, .post p { 
   font-size: 15px;
 }
-.textarea-wrapper .help__text {
+
+/* hide online status icon from user avatar in post stream */
+.post__content .status { 
+  display: none;
+}
+
+/* hide message format help text below composer */
+.textarea-wrapper .help__text { 
   display: none;
 }
