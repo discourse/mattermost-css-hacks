@@ -467,7 +467,12 @@ var PluginClass = function () {
         // lets not explode here
       }
 
-      var fontOverride = ["sam", "sam-v"];
+      var fontOverride = ["sam", "jomaxro"];
+
+      if (username.substr(username.length - 2) === "-v") {
+        username = username.substr(0, username.length - 2);
+      }
+
       var override = fontOverride.indexOf(username) > -1;
 
       global.document.body.setAttribute("data-hack-font", override.toString());
