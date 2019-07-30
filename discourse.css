@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 /* change font-family and increase size */
-.app__body.font--open_sans { 
+[data-hack-font=true].app__body.font--open_sans {
   font-family: 'Lato', sans-serif;
 }
-.form-control, .post p { 
+
+[data-hack-font=true] .form-control, .post p {
   font-size: 15px;
 }
 
 /* hide online status icon from user avatar in post stream */
-.post__content .status { 
+.post__content .status {
   display: none;
 }
 
 /* hide message format help text below composer */
-.textarea-wrapper .help__format-text, .textarea-wrapper .textbox-help-link { 
+.textarea-wrapper .help__format-text, .textarea-wrapper .textbox-help-link {
   display: none;
 }
