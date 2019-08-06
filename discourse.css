@@ -1,14 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
-
-/* change font-family and increase size */
-[data-hack-font=true].app__body.font--open_sans {
-  font-family: 'Lato', sans-serif;
-}
-
-[data-hack-font=true] .form-control, .post p {
-  font-size: 15px;
-}
-
 /* hide online status icon from user avatar in post stream */
 .post__content .status {
   display: none;
