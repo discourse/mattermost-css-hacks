@@ -466,17 +466,19 @@ var PluginClass = function () {
       catch(err) {
         // lets not explode here
       }
+	    
+      if (username) {
+        var fontOverride = ["sam", "jomaxro"];
 
-      var fontOverride = ["sam", "jomaxro"];
+        if (username.substr(username.length - 2) === "-v") {
+          username = username.substr(0, username.length - 2);
+        }
 
-      if (username.substr(username.length - 2) === "-v") {
-        username = username.substr(0, username.length - 2);
+        var override = fontOverride.indexOf(username) > -1;
+
+        global.document.body.setAttribute("data-hack-font", override.toString());
       }
-
-      var override = fontOverride.indexOf(username) > -1;
-
-      global.document.body.setAttribute("data-hack-font", override.toString());
-
+	    
       var css = global.document.createElement("style");
       css.type = "text/css";
       css.innerHTML = $CSS$;
