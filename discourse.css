@@ -7,3 +7,14 @@
 .textarea-wrapper .help__format-text, .textarea-wrapper .textbox-help-link {
   display: none;
 }
+
+/* change font-family and increase size for flagged users */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+[data-hack-font=true].app__body.font--open_sans {
+  font-family: 'Lato', sans-serif;
+}
+
+[data-hack-font=true] .form-control, .post p {
+  font-size: 15px;
+}
