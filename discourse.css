@@ -15,6 +15,6 @@
   font-family: 'Lato', sans-serif;
 }
 
-[data-hack-font=true] .form-control, .post p {
+[data-hack-font=true] .form-control, [data-hack-font=true] .post p {
   font-size: 15px;
 }
