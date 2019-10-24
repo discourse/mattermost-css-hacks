@@ -11,7 +11,7 @@
 /* change font-family and increase size for flagged users */
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
-.app__body.font--open_sans {
+[data-hack-font=true].app__body.font--open_sans {
   font-family: 'Lato', sans-serif;
 }
 
