@@ -468,7 +468,7 @@ var PluginClass = function () {
       }
 	    
       if (username) {
-        var fontOverride = ["sam", "jomaxro"];
+        var fontOverride = ["sam", "jomaxro", "jordan.vidrine"];
 
         if (username.substr(username.length - 2) === "-v") {
           username = username.substr(0, username.length - 2);
