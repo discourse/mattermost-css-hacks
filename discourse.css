@@ -3,11 +3,6 @@
   display: none;
 }
 
-/* hide message format help text below composer */
-.textarea-wrapper .help__format-text, .textarea-wrapper .textbox-help-link {
-  display: none;
-}
-
 /* change font-family and increase size for flagged users */
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
