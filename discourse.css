@@ -1,8 +1,3 @@
-/* hide online status icon from user avatar in post stream */
-.post__content .status {
-  display: none;
-}
-
 /* change font-family and increase size for flagged users */
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
